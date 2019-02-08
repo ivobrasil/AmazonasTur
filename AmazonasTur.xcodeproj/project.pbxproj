@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCEA7C4F220DBDCD0005A333 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEA7C4E220DBDCD0005A333 /* AppDelegate.swift */; };
+		CCEA7C51220DBDCD0005A333 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEA7C50220DBDCD0005A333 /* ViewController.swift */; };
+		CCEA7C54220DBDCD0005A333 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCEA7C52220DBDCD0005A333 /* Main.storyboard */; };
+		CCEA7C56220DBDCF0005A333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCEA7C55220DBDCF0005A333 /* Assets.xcassets */; };
+		CCEA7C59220DBDCF0005A333 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCEA7C57220DBDCF0005A333 /* LaunchScreen.storyboard */; };
+		CCEA7C64220DBDCF0005A333 /* AmazonasTurTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEA7C63220DBDCF0005A333 /* AmazonasTurTests.swift */; };
+		CCEA7C6F220DBDCF0005A333 /* AmazonasTurUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEA7C6E220DBDCF0005A333 /* AmazonasTurUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCEA7C60220DBDCF0005A333 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCEA7C43220DBDCD0005A333 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCEA7C4A220DBDCD0005A333;
+			remoteInfo = AmazonasTur;
+		};
+		CCEA7C6B220DBDCF0005A333 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCEA7C43220DBDCD0005A333 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCEA7C4A220DBDCD0005A333;
+			remoteInfo = AmazonasTur;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCEA7C4B220DBDCD0005A333 /* AmazonasTur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazonasTur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEA7C4E220DBDCD0005A333 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCEA7C50220DBDCD0005A333 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCEA7C53220DBDCD0005A333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCEA7C55220DBDCF0005A333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCEA7C58220DBDCF0005A333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCEA7C5A220DBDCF0005A333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCEA7C5F220DBDCF0005A333 /* AmazonasTurTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazonasTurTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEA7C63220DBDCF0005A333 /* AmazonasTurTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonasTurTests.swift; sourceTree = "<group>"; };
+		CCEA7C65220DBDCF0005A333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCEA7C6A220DBDCF0005A333 /* AmazonasTurUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazonasTurUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEA7C6E220DBDCF0005A333 /* AmazonasTurUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonasTurUITests.swift; sourceTree = "<group>"; };
+		CCEA7C70220DBDCF0005A333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCEA7C48220DBDCD0005A333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEA7C5C220DBDCF0005A333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEA7C67220DBDCF0005A333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCEA7C42220DBDCD0005A333 = {
+			isa = PBXGroup;
+			children = (
+				CCEA7C4D220DBDCD0005A333 /* AmazonasTur */,
+				CCEA7C62220DBDCF0005A333 /* AmazonasTurTests */,
+				CCEA7C6D220DBDCF0005A333 /* AmazonasTurUITests */,
+				CCEA7C4C220DBDCD0005A333 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCEA7C4C220DBDCD0005A333 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCEA7C4B220DBDCD0005A333 /* AmazonasTur.app */,
+				CCEA7C5F220DBDCF0005A333 /* AmazonasTurTests.xctest */,
+				CCEA7C6A220DBDCF0005A333 /* AmazonasTurUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCEA7C4D220DBDCD0005A333 /* AmazonasTur */ = {
+			isa = PBXGroup;
+			children = (
+				CCEA7C4E220DBDCD0005A333 /* AppDelegate.swift */,
+				CCEA7C50220DBDCD0005A333 /* ViewController.swift */,
+				CCEA7C52220DBDCD0005A333 /* Main.storyboard */,
+				CCEA7C55220DBDCF0005A333 /* Assets.xcassets */,
+				CCEA7C57220DBDCF0005A333 /* LaunchScreen.storyboard */,
+				CCEA7C5A220DBDCF0005A333 /* Info.plist */,
+			);
+			path = AmazonasTur;
+			sourceTree = "<group>";
+		};
+		CCEA7C62220DBDCF0005A333 /* AmazonasTurTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCEA7C63220DBDCF0005A333 /* AmazonasTurTests.swift */,
+				CCEA7C65220DBDCF0005A333 /* Info.plist */,
+			);
+			path = AmazonasTurTests;
+			sourceTree = "<group>";
+		};
+		CCEA7C6D220DBDCF0005A333 /* AmazonasTurUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCEA7C6E220DBDCF0005A333 /* AmazonasTurUITests.swift */,
+				CCEA7C70220DBDCF0005A333 /* Info.plist */,
+			);
+			path = AmazonasTurUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCEA7C4A220DBDCD0005A333 /* AmazonasTur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEA7C73220DBDCF0005A333 /* Build configuration list for PBXNativeTarget "AmazonasTur" */;
+			buildPhases = (
+				CCEA7C47220DBDCD0005A333 /* Sources */,
+				CCEA7C48220DBDCD0005A333 /* Frameworks */,
+				CCEA7C49220DBDCD0005A333 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmazonasTur;
+			productName = AmazonasTur;
+			productReference = CCEA7C4B220DBDCD0005A333 /* AmazonasTur.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCEA7C5E220DBDCF0005A333 /* AmazonasTurTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEA7C76220DBDCF0005A333 /* Build configuration list for PBXNativeTarget "AmazonasTurTests" */;
+			buildPhases = (
+				CCEA7C5B220DBDCF0005A333 /* Sources */,
+				CCEA7C5C220DBDCF0005A333 /* Frameworks */,
+				CCEA7C5D220DBDCF0005A333 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCEA7C61220DBDCF0005A333 /* PBXTargetDependency */,
+			);
+			name = AmazonasTurTests;
+			productName = AmazonasTurTests;
+			productReference = CCEA7C5F220DBDCF0005A333 /* AmazonasTurTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCEA7C69220DBDCF0005A333 /* AmazonasTurUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEA7C79220DBDCF0005A333 /* Build configuration list for PBXNativeTarget "AmazonasTurUITests" */;
+			buildPhases = (
+				CCEA7C66220DBDCF0005A333 /* Sources */,
+				CCEA7C67220DBDCF0005A333 /* Frameworks */,
+				CCEA7C68220DBDCF0005A333 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCEA7C6C220DBDCF0005A333 /* PBXTargetDependency */,
+			);
+			name = AmazonasTurUITests;
+			productName = AmazonasTurUITests;
+			productReference = CCEA7C6A220DBDCF0005A333 /* AmazonasTurUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCEA7C43220DBDCD0005A333 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ivo Brasil Filho";
+				TargetAttributes = {
+					CCEA7C4A220DBDCD0005A333 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CCEA7C5E220DBDCF0005A333 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CCEA7C4A220DBDCD0005A333;
+					};
+					CCEA7C69220DBDCF0005A333 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CCEA7C4A220DBDCD0005A333;
+					};
+				};
+			};
+			buildConfigurationList = CCEA7C46220DBDCD0005A333 /* Build configuration list for PBXProject "AmazonasTur" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCEA7C42220DBDCD0005A333;
+			productRefGroup = CCEA7C4C220DBDCD0005A333 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCEA7C4A220DBDCD0005A333 /* AmazonasTur */,
+				CCEA7C5E220DBDCF0005A333 /* AmazonasTurTests */,
+				CCEA7C69220DBDCF0005A333 /* AmazonasTurUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCEA7C49220DBDCD0005A333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEA7C59220DBDCF0005A333 /* LaunchScreen.storyboard in Resources */,
+				CCEA7C56220DBDCF0005A333 /* Assets.xcassets in Resources */,
+				CCEA7C54220DBDCD0005A333 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEA7C5D220DBDCF0005A333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEA7C68220DBDCF0005A333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCEA7C47220DBDCD0005A333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEA7C51220DBDCD0005A333 /* ViewController.swift in Sources */,
+				CCEA7C4F220DBDCD0005A333 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEA7C5B220DBDCF0005A333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEA7C64220DBDCF0005A333 /* AmazonasTurTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEA7C66220DBDCF0005A333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEA7C6F220DBDCF0005A333 /* AmazonasTurUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCEA7C61220DBDCF0005A333 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCEA7C4A220DBDCD0005A333 /* AmazonasTur */;
+			targetProxy = CCEA7C60220DBDCF0005A333 /* PBXContainerItemProxy */;
+		};
+		CCEA7C6C220DBDCF0005A333 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCEA7C4A220DBDCD0005A333 /* AmazonasTur */;
+			targetProxy = CCEA7C6B220DBDCF0005A333 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCEA7C52220DBDCD0005A333 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCEA7C53220DBDCD0005A333 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCEA7C57220DBDCF0005A333 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCEA7C58220DBDCF0005A333 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCEA7C71220DBDCF0005A333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCEA7C72220DBDCF0005A333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCEA7C74220DBDCF0005A333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmazonasTur/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.ivobrasil.AmazonasTur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCEA7C75220DBDCF0005A333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmazonasTur/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.ivobrasil.AmazonasTur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCEA7C77220DBDCF0005A333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmazonasTurTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.ivobrasil.AmazonasTurTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmazonasTur.app/AmazonasTur";
+			};
+			name = Debug;
+		};
+		CCEA7C78220DBDCF0005A333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmazonasTurTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.ivobrasil.AmazonasTurTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmazonasTur.app/AmazonasTur";
+			};
+			name = Release;
+		};
+		CCEA7C7A220DBDCF0005A333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmazonasTurUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.ivobrasil.AmazonasTurUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmazonasTur;
+			};
+			name = Debug;
+		};
+		CCEA7C7B220DBDCF0005A333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmazonasTurUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.ivobrasil.AmazonasTurUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmazonasTur;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCEA7C46220DBDCD0005A333 /* Build configuration list for PBXProject "AmazonasTur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEA7C71220DBDCF0005A333 /* Debug */,
+				CCEA7C72220DBDCF0005A333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEA7C73220DBDCF0005A333 /* Build configuration list for PBXNativeTarget "AmazonasTur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEA7C74220DBDCF0005A333 /* Debug */,
+				CCEA7C75220DBDCF0005A333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEA7C76220DBDCF0005A333 /* Build configuration list for PBXNativeTarget "AmazonasTurTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEA7C77220DBDCF0005A333 /* Debug */,
+				CCEA7C78220DBDCF0005A333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEA7C79220DBDCF0005A333 /* Build configuration list for PBXNativeTarget "AmazonasTurUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEA7C7A220DBDCF0005A333 /* Debug */,
+				CCEA7C7B220DBDCF0005A333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCEA7C43220DBDCD0005A333 /* Project object */;
+}
